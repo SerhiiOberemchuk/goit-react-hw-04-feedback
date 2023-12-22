@@ -22,7 +22,7 @@ export const App = () => {
   };
 
   return (
-    <div className="main_box">
+    <div className="container border border-primary ">
       <Section title={'Please leave feedback'}>
         <FeedbackOptions
           options={Object.keys(feedback)}
